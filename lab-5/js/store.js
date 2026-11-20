@@ -79,7 +79,6 @@ class Store {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(this.state));
     } catch {
-      /* ignore write errors */
     }
   }
 }
